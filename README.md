@@ -6,7 +6,7 @@
 
 ## 📄 Descrição
 
-O Fintech é uma plataforma de gestão financeira desenvolvida em React com Typescript, utilizando API Rest para obter dados. Composto por duas telas, a primeira oferece um resumo financeiro geral apresentando gráficos interativos de vendas, recebimentos e transações em processamento, permitindo filtrar por datas e navegar por meses anteriores. A segunda tela destaca as vendas do período selecionado, tendo informações detalhadas de cada uma delas, como id, nome do cliente e valor.
+O Fintech é um dashboard desenvolvido em React com Typescript, utilizando API Rest para obter dados. Composto por duas telas, a primeira oferece um resumo financeiro geral apresentando gráficos interativos de vendas, recebimentos e transações em processamento, permitindo filtrar por datas e navegar por meses anteriores. A segunda tela destaca as vendas do período selecionado, tendo informações detalhadas de cada uma delas, como id, nome do cliente e valor.
 
 ### <a href="https://luizfelipe9627-fintech.netlify.app">Acesse o projeto</a>
 
