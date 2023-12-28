@@ -1,24 +1,5 @@
 import React from "react";
 
-/*
-  Crie um custom hook chamado useFetch:
-	
-  1 - Este hook deve retornar a interface:
-  interface FetchState<T> {
-    data: T | null;
-    loading: boolean;
-    error: string | null;
-  }
-    
-  Onde T é um valor genérico que deverá ser passado quando o Hook for utilizado:
-
-  2 - data, loading e error são estados reativos (useState).
-  3 - O hook deve receber a URL e OPTIONS como argumentos (interfaces de fetch).
-  4 - O fetch deve ocorrer em um useEffect, com dependência apenas da URL.
-  5 - Use AbortController para abortar o fetch caso o componente desmonte, antes do fetch ser concluído.
-  6 - Teste o Hook com a api: https://data.origamid.dev/produtos
-*/
-
 // Criado um hook chamado useFetch que recebe uma função genérica chamada T que recebe a interface dos dados da API. Dentro do parâmetro da função, foi passado uma url e um objeto de opções com os mesmos tipos dos usado no fetch.
 function useFetch<T>(url: RequestInfo | URL, options?: RequestInit) {
   const [data, setData] = React.useState<T | null>(null); // Criado um estado chamado data e uma função que altera o estado chamada setData que recebe um tipo genérico T ou null. O estado inicia com o valor null.
